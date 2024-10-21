@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.background-area {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    background-color: rgba(255, 243, 12, 0.841);
+    background-image: url('html2.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Imagem fixa ao rolar */
+    background-blend-mode: multiply; /* Mistura de cor e imagem */
+}
